@@ -2,9 +2,8 @@ name: Automate Gradlew Build
 
 on:
   push:
-    branches: [ "master" ]
   pull_request:
-    branches: [ "master" ]
+    types: [opened, reopened]
 
 permissions:
   contents: read
